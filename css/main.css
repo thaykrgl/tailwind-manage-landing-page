@@ -939,6 +939,41 @@ body{
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
+@media(min-width:1200px)
+{
+  .hero-left{
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  .hero-right{
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  .navbar-menu a{
+    transform: translateY(-200px);
+    opacity: 0;
+    transition: all .2s;
+  }
+
+  .gsap-testimonial div {
+    opacity: 0;
+  }
+
+  .gsap-testimonial div:first-child{
+    transform: translateX(-100%);
+  }
+
+  .gsap-testimonial div:nth-child(2){
+    transform: translateY(100%);
+  }
+
+  .gsap-testimonial div:last-child{
+    transform: translateX(100%);
+  }
+}
+
 .hover\:bg-brightRedLight:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(12 88% 69% / var(--tw-bg-opacity));

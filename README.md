@@ -4,6 +4,6 @@
 
 #### Mobile View
 
-<img src="./images/manage-landing-page-mobile.png" alt="Mobile View">
+<img src="./images/manage-landing-page-mobile.png" alt="Mobile View">kırm
 
 Live Site URL: [Netlify](https://manage-page-frontend-mentor.netlify.app/)
