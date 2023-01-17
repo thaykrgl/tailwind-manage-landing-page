@@ -25,9 +25,9 @@ gsap.to(".hero-right", {
 gsap.to(".navbar-menu a", {
     y: 0,
     opacity: 1,
-    duration: 1,
+    duration: 1 ,
     ease: 'power3',
-    stagger: 0.2
+    stagger: 0.2    
 });
 
 
@@ -38,7 +38,6 @@ gsap.to(".gsap-testimonial div:first-child", {
         trigger: '.gsap-testimonial',
         start: 'top-=600 top',  
         end: 'bottom-=400 top',
-        markers: true,
         scrub: true,
     }
 });
@@ -50,7 +49,6 @@ gsap.to(".gsap-testimonial div:nth-child(2)", {
         trigger: '.gsap-testimonial',
         start: 'top-=600 top',  
         end: 'bottom-=400 top',
-        markers: true,
         scrub: true,
     }
 });
@@ -62,7 +60,6 @@ gsap.to(".gsap-testimonial div:last-child", {
         trigger: '.gsap-testimonial',
         start: 'top-=600 top',  
         end: 'bottom-=400 top',
-        markers: true,
         scrub: true,
     }
 });
